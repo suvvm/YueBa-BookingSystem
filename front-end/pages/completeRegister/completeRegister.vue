@@ -1,0 +1,34 @@
+<template>
+	<view>
+		<van-steps :active="active">
+		  <van-step>注册账号</van-step>
+		  <van-step>选择角色</van-step>
+		  <van-step>等待绑定</van-step>
+		  <van-step>注册完成</van-step>
+		</van-steps>
+		<van-button class="nex" type="primary" size="large" @click="submit">立刻体验</van-button>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				active: 3
+			}
+		},
+		methods: {
+			submit(){
+				this.$router.push({
+				    path: '/pages/logout/logout', 
+				})
+			}
+		}
+	}
+</script>
+
+<style>
+.nex{
+	margin-top: 100rpx;
+}
+</style>

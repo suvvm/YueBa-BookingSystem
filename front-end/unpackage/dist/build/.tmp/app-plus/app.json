@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/register",
+    "pages/index/1",
+    "pages/index/select",
+    "pages/index/AddPerson",
+    "pages/index/StoreInformation",
+    "pages/index/AddDate",
+    "pages/index/AddRoom",
+    "pages/index/order",
+    "pages/chooseRole/chooseRole",
+    "pages/userWait/userWait",
+    "pages/createShop/createShop",
+    "pages/completeRegister/completeRegister",
+    "pages/logout/logout",
+    "pages/test/test",
+    "pages/index/shopManagement/shopManagement",
+    "components/identify/identify",
+    "pages/showOrders/showOrders"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "Test8.10",
+  "compilerVersion": "2.2.0",
+  "usingComponents": {
+    "s-identify": "/components/identify/identify"
+  }
+}

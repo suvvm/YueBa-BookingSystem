@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "date-picker": "/node-modules/vue-datepicker/vue-datepicker-es6"
+  }
+}

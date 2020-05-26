@@ -1,0 +1,92 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/index/AddPerson",
+			"style": {
+				"navigationBarTitleText": "人员管理"
+			}
+		},
+		{
+			"path": "pages/index/AddRoom",
+			"style": {
+				"navigationBarTitleText": "工作区"
+			}
+		}
+	    ,{
+	        "path" : "pages/chooseRole/chooseRole",
+	        "style" : {
+				"navigationBarTitleText": "完善信息"
+			}
+	    }
+        ,{
+            "path" : "pages/userWait/userWait",
+            "style" : {
+				"navigationBarTitleText": "等待绑定"
+			}
+        }
+        ,{
+            "path" : "pages/createShop/createShop",
+            "style" : {
+				"navigationBarTitleText": "创建店铺"
+			}
+        }
+        ,{
+            "path" : "pages/completeRegister/completeRegister",
+            "style" : {
+				"navigationBarTitleText": "注册完成"
+			}
+        }
+        ,{
+            "path" : "pages/logout/logout",
+            "style" : {
+				"navigationBarTitleText": "个人信息"
+			}
+        }
+        ,{
+            "path" : "components/identify/identify",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/showOrders/showOrders",
+            "style" : {
+				"navigationBarTitleText": "订单管理"
+			}
+        }
+        ,{
+            "path" : "pages/loginFV/loginFV",
+            "style" : {
+				"navigationBarTitleText": "人脸识别登录"
+			}
+        }
+        ,{
+            "path" : "pages/showAllOrders/showAllOrders",
+            "style" : {
+				"navigationBarTitleText": "订单列表"
+			}
+        }
+        ,{
+            "path" : "pages/showCustomer/showCustomer",
+            "style" : {
+				"navigationBarTitleText": "客户列表"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "约吧",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

@@ -1,0 +1,1 @@
+<view class="s-canvas _div"><canvas id="s-canvas" width="{{contentWidth}}" height="{{contentHeight}}"></canvas></view>
